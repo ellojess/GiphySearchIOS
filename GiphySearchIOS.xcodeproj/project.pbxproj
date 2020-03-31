@@ -14,6 +14,7 @@
 		C02E1C8D24331806009E95BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E1C8C24331806009E95BE /* Assets.xcassets */; };
 		C02E1C9024331806009E95BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02E1C8E24331806009E95BE /* LaunchScreen.storyboard */; };
 		C02E1CC224331945009E95BE /* GifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E1CC124331945009E95BE /* GifExtension.swift */; };
+		C02E1CC424331B78009E95BE /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E1CC324331B78009E95BE /* GifCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C02E1C8F24331806009E95BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02E1C9124331806009E95BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02E1CC124331945009E95BE /* GifExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifExtension.swift; sourceTree = "<group>"; };
+		C02E1CC324331B78009E95BE /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C02E1C83243317FE009E95BE /* AppDelegate.swift */,
 				C02E1C85243317FE009E95BE /* SceneDelegate.swift */,
 				C02E1C87243317FE009E95BE /* ViewController.swift */,
+				C02E1CC324331B78009E95BE /* GifCell.swift */,
 				C02E1C89243317FE009E95BE /* Main.storyboard */,
 				C02E1C8C24331806009E95BE /* Assets.xcassets */,
 				C02E1C8E24331806009E95BE /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				C02E1CC224331945009E95BE /* GifExtension.swift in Sources */,
 				C02E1C88243317FE009E95BE /* ViewController.swift in Sources */,
+				C02E1CC424331B78009E95BE /* GifCell.swift in Sources */,
 				C02E1C84243317FE009E95BE /* AppDelegate.swift in Sources */,
 				C02E1C86243317FE009E95BE /* SceneDelegate.swift in Sources */,
 			);
