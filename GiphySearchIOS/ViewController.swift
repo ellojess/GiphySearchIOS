@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
+    var network = GifNetwork()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
